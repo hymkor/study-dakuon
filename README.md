@@ -83,7 +83,7 @@ Sum of RuneWidth: 2
 
 ![](legacy-terminal.png)
 
-![](.\on-windows-terminal.png)
+![](on-windows-terminal.png)
 
 ```go.mod
 module github.com/hymkor/study-dakuon
