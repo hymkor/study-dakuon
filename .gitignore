@@ -1,0 +1,8 @@
+*.a
+*.dll
+*.exe
+*.gz
+*.swp
+*.syso
+*.zip
+*~
