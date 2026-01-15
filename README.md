@@ -10,6 +10,10 @@
 
 修正パッチを送るにしても、一般の合字と濁音のケースを効率的に分けるアイデアを思いつかないため、手をこまねいている。さらに、[グリフを分割するライブラリ](https://github.com/clipperhouse/uax29)はメンテナが別であるため、対応が難しくなることが予想される。
 
+なお、拙作のツールでは runewidth.Truncate 用の簡単なラッパー関数を作って回避した。
+
+- [Fix display overflow caused by halfwidth kana with voiced/semi-voiced sound marks by hymkor · Pull Request #48 · hymkor/csvi](https://github.com/hymkor/csvi/pull/48)
+
 [StringWidth]: https://pkg.go.dev/github.com/mattn/go-runewidth#StringWidth
 [Truncate]: https://pkg.go.dev/github.com/mattn/go-runewidth#Truncate
 [RuneWidth]: https://pkg.go.dev/github.com/mattn/go-runewidth#RuneWidth
